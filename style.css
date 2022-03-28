@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background:  #696573 ;
+
+}
+.stopwatch-container{
+    background:#fff;
+    height:300px;
+    width:500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:grid;
+    place-items: center;
+}
+.stopwatch-container h1{
+    font-family:Montserrat, monospace;
+}
+.time{
+    height:80px;
+    width:250px;
+    border:1px solid #000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+}
+.dvotacka{
+    padding:0 10px
+}
+button{
+    height:50px;
+    width:150px;
+    border:none;
+    background:#9fd9e1;
+    font:19px Montserrat, monospace;
+    transition:.3s linear;
+}
+button:hover{
+    background:#b6ebf3
+}
